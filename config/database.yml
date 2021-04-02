@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  database: autenticacion_manual_development
+  pool: 5
+  timeout: 5000
+test:
+  adapter: postgresql
+  database: autenticacion_manual_test
+  pool: 5
+  timeout: 5000
+production:
+  adapter: postgresql
+  database: autenticacion_manual_production
+  pool: 5
+  timeout: 5000
